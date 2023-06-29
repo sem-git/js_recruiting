@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #container {
+      max-width: 1280px;
+      margin: 0px auto;
+      text-align: center;
+      min-height: 100vh;
+      background: #902443;
+      position: relative;
+    }
+
+    #whiteBox {
+      position: relative;
+      width: 80%;
+      height: 90vh;
+      top: 30px;
+      background: #ffffff;
+      box-shadow: 0px 0px 4px 2px rgba(100, 100, 100, 0.25);
+      border-radius: 5px;
+      margin: 0 auto;
+    }
+
+    #logo {
+      position: relative;
+      top: 10px;
+      background: url(ddwu_logo.png);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    #title {
+      display: relative;
+      font-family: "Pretendard";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 24px;
+
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+
+      color: #5e162b;
+    }
+
+    #input {
+      position: relative;
+      font-family: "Pretendard";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+
+      color: #000000;
+
+      padding-top: 1rem;
+    }
+
+    #icon {
+      width: 10px;
+      border: 3.5px solid #dc7190;
+      transform: rotate(90deg);
+      margin-right: 0.5rem;
+    }
+
+    #textName {
+      position: relative;
+      margin-left: rem;
+    }
+
+    #name {
+      width: 210px;
+      height: 35px;
+      margin-top: 10px;
+
+      border-radius: 50px;
+      background: #cd99a6;
+
+      border: 0;
+      padding-left: 10px;
+      outline: none;
+    }
+
+    #tel {
+      width: 210px;
+      height: 35px;
+      margin-top: 10px;
+
+      border-radius: 50px;
+      background: #cd99a6;
+
+      border: 0;
+      padding-left: 10px;
+      outline: none;
+    }
+
+    #btn {
+      font-family: "Pretendard";
+      font-style: normal;
+      font-weight: 700;
+      line-height: 25px;
+      width: 93px;
+      height: 36px;
+
+      background: #902443;
+      border-radius: 10px;
+      color: #ffffff;
+      cursor: pointer;
+      margin-top: 2rem;
+
+      border: 0;
+    }
+
+    #footer {
+      position: relative;
+      top: 38%;
+
+      font-family: "Pretendard";
+      font-style: normal;
+      font-weight: 650;
+      font-size: 20px;
+      text-align: center;
+
+      color: #ffffff;
+    }
+  </style>
+  <body>
+    <div id="container">
+      <div id="whiteBox">
+        <div id="logo">
+          <img src="images/ddwu_logo 5.png" />
+        </div>
+        <div id="title">
+          동덕여자대학교 멋쟁이사자처럼<br />
+          11기 아기사자 합격자 발표
+        </div>
+
+        <div id="input">
+          <div><span id="icon"></span> <span id="textName">성함</span></div>
+          <input type="text" id="name" />
+        </div>
+        <div id="input">
+          <div><span id="icon"></span> <span id="textTel">전화번호</span></div>
+          <input type="text" id="tel" placeholder="010-1234-5678" />
+        </div>
+        <button type="submit" id="btn">입력</button>
+        <div id="footer">DONGDUK x LIKELION</div>
+      </div>
+    </div>
+    <script src="js/check.js"></script>
+  </body>
+</html>
